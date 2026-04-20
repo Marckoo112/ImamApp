@@ -10,10 +10,33 @@
 		157FFF062F888F27001B69DF /* ImamApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ImamApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
+/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
+		159DE5A82F92396800C93F81 /* Exceptions for "ImamApp" folder in "ImamApp" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				Info.plist,
+			);
+			target = 157FFF052F888F27001B69DF /* ImamApp */;
+		};
+/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
+
 /* Begin PBXFileSystemSynchronizedRootGroup section */
 		157FFF082F888F27001B69DF /* ImamApp */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				159DE5A82F92396800C93F81 /* Exceptions for "ImamApp" folder in "ImamApp" target */,
+			);
 			path = ImamApp;
+			sourceTree = "<group>";
+		};
+		15D4BB022F8F7B1A00C06691 /* Result */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = Result;
+			sourceTree = "<group>";
+		};
+		15D4BB092F8F866500C06691 /* Camera */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = Camera;
 			sourceTree = "<group>";
 		};
 /* End PBXFileSystemSynchronizedRootGroup section */
@@ -34,6 +57,8 @@
 			children = (
 				157FFF082F888F27001B69DF /* ImamApp */,
 				157FFF072F888F27001B69DF /* Products */,
+				15D4BB022F8F7B1A00C06691 /* Result */,
+				15D4BB092F8F866500C06691 /* Camera */,
 			);
 			sourceTree = "<group>";
 		};
@@ -62,6 +87,8 @@
 			);
 			fileSystemSynchronizedGroups = (
 				157FFF082F888F27001B69DF /* ImamApp */,
+				15D4BB022F8F7B1A00C06691 /* Result */,
+				15D4BB092F8F866500C06691 /* Camera */,
 			);
 			name = ImamApp;
 			packageProductDependencies = (
@@ -256,11 +283,14 @@
 				DEVELOPMENT_TEAM = H347NCW8HF;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = ImamApp/Info.plist;
+				INFOPLIST_KEY_NSCameraUsageDescription = "pinjam dulu 100";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 26.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -288,11 +318,14 @@
 				DEVELOPMENT_TEAM = H347NCW8HF;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = ImamApp/Info.plist;
+				INFOPLIST_KEY_NSCameraUsageDescription = "pinjam dulu 100";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 26.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
