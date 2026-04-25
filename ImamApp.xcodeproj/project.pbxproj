@@ -7,11 +7,11 @@
 	objects = {
 
 /* Begin PBXFileReference section */
-		157FFF062F888F27001B69DF /* ImamApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ImamApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1547BCB72F9A0DB70018288B /* ImamApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ImamApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
-		159DE5A82F92396800C93F81 /* Exceptions for "ImamApp" folder in "ImamApp" target */ = {
+		153D02B22F99BB1900ABB8D3 /* Exceptions for "ImamApp" folder in "ImamApp" target */ = {
 			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
 			membershipExceptions = (
 				Info.plist,
@@ -21,22 +21,22 @@
 /* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
-		157FFF082F888F27001B69DF /* ImamApp */ = {
+		153D02632F99B0C500ABB8D3 /* Core */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = Core;
+			sourceTree = "<group>";
+		};
+		153D02692F99B13700ABB8D3 /* Features */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = Features;
+			sourceTree = "<group>";
+		};
+		153D02B02F99BB1800ABB8D3 /* ImamApp */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
 			exceptions = (
-				159DE5A82F92396800C93F81 /* Exceptions for "ImamApp" folder in "ImamApp" target */,
+				153D02B22F99BB1900ABB8D3 /* Exceptions for "ImamApp" folder in "ImamApp" target */,
 			);
 			path = ImamApp;
-			sourceTree = "<group>";
-		};
-		15D4BB022F8F7B1A00C06691 /* Result */ = {
-			isa = PBXFileSystemSynchronizedRootGroup;
-			path = Result;
-			sourceTree = "<group>";
-		};
-		15D4BB092F8F866500C06691 /* Camera */ = {
-			isa = PBXFileSystemSynchronizedRootGroup;
-			path = Camera;
 			sourceTree = "<group>";
 		};
 /* End PBXFileSystemSynchronizedRootGroup section */
@@ -55,19 +55,11 @@
 		157FFEFD2F888F27001B69DF = {
 			isa = PBXGroup;
 			children = (
-				157FFF082F888F27001B69DF /* ImamApp */,
-				157FFF072F888F27001B69DF /* Products */,
-				15D4BB022F8F7B1A00C06691 /* Result */,
-				15D4BB092F8F866500C06691 /* Camera */,
+				153D02B02F99BB1800ABB8D3 /* ImamApp */,
+				153D02632F99B0C500ABB8D3 /* Core */,
+				153D02692F99B13700ABB8D3 /* Features */,
+				1547BCB72F9A0DB70018288B /* ImamApp.app */,
 			);
-			sourceTree = "<group>";
-		};
-		157FFF072F888F27001B69DF /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				157FFF062F888F27001B69DF /* ImamApp.app */,
-			);
-			name = Products;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -86,15 +78,15 @@
 			dependencies = (
 			);
 			fileSystemSynchronizedGroups = (
-				157FFF082F888F27001B69DF /* ImamApp */,
-				15D4BB022F8F7B1A00C06691 /* Result */,
-				15D4BB092F8F866500C06691 /* Camera */,
+				153D02632F99B0C500ABB8D3 /* Core */,
+				153D02692F99B13700ABB8D3 /* Features */,
+				153D02B02F99BB1800ABB8D3 /* ImamApp */,
 			);
 			name = ImamApp;
 			packageProductDependencies = (
 			);
 			productName = ImamApp;
-			productReference = 157FFF062F888F27001B69DF /* ImamApp.app */;
+			productReference = 1547BCB72F9A0DB70018288B /* ImamApp.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -122,7 +114,7 @@
 			mainGroup = 157FFEFD2F888F27001B69DF;
 			minimizedProjectReferenceProxies = 1;
 			preferredProjectObjectVersion = 77;
-			productRefGroup = 157FFF072F888F27001B69DF /* Products */;
+			productRefGroup = 157FFEFD2F888F27001B69DF;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
@@ -284,7 +276,7 @@
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = ImamApp/Info.plist;
-				INFOPLIST_KEY_NSCameraUsageDescription = "pinjam dulu 100";
+				INFOPLIST_KEY_NSCameraUsageDescription = "Pinjam dulu camera";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -319,7 +311,7 @@
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = ImamApp/Info.plist;
-				INFOPLIST_KEY_NSCameraUsageDescription = "pinjam dulu 100";
+				INFOPLIST_KEY_NSCameraUsageDescription = "Pinjam dulu camera";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
